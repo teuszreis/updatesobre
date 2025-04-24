@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    background-color:  rgb(75, 59, 46);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 20px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    background-color:  rgb(75, 59, 46);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgb(75, 59, 46);
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo a{
+    text-decoration: none;
+    color: #928f8f;
+    font-size: 35px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+.banner{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('roupashomem2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.texto .botoes{
+    margin-top: 30px;
+}
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+.texto .botoes button.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.logo10 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -40px;
+    left: 230px;
+    z-index: 10;
+}
+
+h1 {
+    position: relative;
+    top: 80px;
+    color: rgb(163, 161, 161);
+}
+
+h3 {
+    position: relative;
+    top: 130px;
+}
+
+.black-box {
+    width: 1200px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-color: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+#localizacao {
+    position: relative;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.mapa {
+    border-radius: 100px;
+    width: 2000px;
+    height: 200px;
+    position: relative;
+    left: -80px;
+}
+
+h2 {
+    position: relative;
+    top: -200px;
+    left: 670px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(163, 161, 161);
+}
